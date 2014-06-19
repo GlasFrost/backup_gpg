@@ -17,6 +17,8 @@ backup_gpg.sh <password file> <source dir> <destination dir>
 <source dir> is the path to the directory which you want to make a backup of.
 <destination dir> is the path to the directory the backup file will be stored in.
 
+This script runs on linux machines. It was tested with Ubuntu 14.04 LTS using Bash.
+
 
 How it works
 ------------
