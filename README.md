@@ -5,6 +5,8 @@ Creates a backup of a directory using tar and encrypts it with GPG using the def
 The encrypted backup file is tested wether or not it can be decrypted for data safety reasons.
 The password for all that has to be in a file. Make sure to "chmod 600" the password file!
 
+Feel free to post your ideas and bug reports!
+
 
 Usage
 -----
@@ -12,9 +14,7 @@ Usage
 backup_gpg.sh <password file> <source dir> <destination dir>
 
 <password file> is the path to the password file. The first line of the file is used as password (according to GPG's man page)
-
 <source dir> is the path to the directory which you want to make a backup of.
-
 <destination dir> is the path to the directory the backup file will be stored in.
 
 
