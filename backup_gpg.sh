@@ -12,10 +12,10 @@ fi
 
 #Validate password file
 if [ -f "$1" ]; then
-  echo "Password file found and not empty: $1"
+  echo "Password file found: $1"
   passwordfile=$1
 else
-  echo "Oops! Password file not found or empty: $1"
+  echo "Oops! Password file not found: $1"
   error=1
 fi
 
