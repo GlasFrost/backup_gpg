@@ -5,7 +5,7 @@ Creates a backup of a directory using tar and encrypts it with GPG using the def
 The encrypted backup file is tested wether or not it can be decrypted for data safety reasons.
 The password for all that has to be in a file. Make sure to "chmod 600" the password file!
 
-Feel free to post your ideas and bug reports!
+Feel free to post bug reports and things like that in the bug tracker!
 
 
 Usage
